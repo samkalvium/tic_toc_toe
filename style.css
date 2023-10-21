@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 130, 235);
+
+}
+
+header {
+    text-align: center;
+    font-size: 3rem;
+    padding: 30px;
+    color: rgb(252, 252, 157);
+    font-weight:bolder;
+    font-family: 'Fredoka', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+
+.main-container {
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.grid {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
